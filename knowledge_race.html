@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" >
+    <script src="scripts/vconsole.min.js"></script>
+    <link rel="stylesheet" href="styles/knowledge_race.css">
+</head>
+<body>
+<!--  背景图  -->
+<div class="background-image1" id="background" >
+    <!-- 首页 -->
+    <div id="index" >
+        <img  class="top" src="images/index/index-top.png">
+        <div class="index-center">
+            <img class="btn-1" src="images/index/a1.png" >
+            <img class="btn-1" src="images/index/a2.png" >
+            <img class="btn-1" src="images/index/a3.png" >
+            <div id="icon">
+                <img class="icon-1" id="daWenJuan" src="images/index/index-hongbao.png"><img class="icon-2"  id="share1" src="images/index/index-share.png"><img  class="icon-2" id="contact1" src="images/index/index-lianxi.png">
+            </div>
+        </div>
+    </div>
+    <div class="hidden rgba share" id="share">
+        <img class="width-100" src="images/index/index-after-share.png">
+    </div>
+    <div class="hidden contact" id="contact">
+        <img class="width-100" src="images/index/contact.png">
+    </div>
+    <!-- 难度选择页 -->
+    <div class="hidden degree" id="degree">
+        <img class="btn-2" id="degree1"  src="images/index/degree-1.png">
+        <img class="btn-2" id="degree2"  src="images/index/degree2.png" >
+        <img class="btn-2" id="degree3"  src="images/index/degree3.png" >
+    </div>
+    <!-- 信息收集页 -->
+    <div class="hidden information" id="information">
+        <div class="background-rule">
+            佛山五区微信用户均可参与本次知识竞赛，活动自即日起至2016年11月1日零点结束，凡答对8道题以上的用户可参与随机领取红包。每个微信号可重复答题，但只能领取一次红包，领完即止。
+        </div>
+        <div class="background-rank">
+            禅城 75930</br>南海 111668</br>高明 16618</br>顺德 43057</br>三水 11452
+        </div>
+        <p class="cut">--------填写以下资料马上进行答题吧!--------</p>
+        <form class="form-1">
+            <input type="text" placeholder="姓名">
+            <input type="text" placeholder="联系电话">
+            <select>
+                <option value="禅城区">禅城区</option>
+                <option value="南海区">南海区</option>
+                <option value="顺德区">顺德区</option>
+                <option value="高明区">高明区</option>
+                <option value="三水区">三水区</option>
+            </select>
+            <select style="width:46%;margin:2% 0;">
+                <option value="">性别</option>
+                <option value="男">男</option>
+                <option value="女">女</option>
+            </select>
+            <select style="width:46%;margin: 2% 0;">
+                <option value="">婚姻</option>
+                <option value="未婚">未婚</option>
+                <option value="已婚">已婚</option>
+            </select>
+            <select id="age" name="age">
+                <option value="">年龄</option>
+                <option value="0-15">0-15</option>
+                <option value="16-20">16-20</option>
+                <option value="21-25">21-25</option>
+                <option value="26-30">26-30</option>
+                <option value="31-35">31-35</option>
+                <option value="36-40">36-40</option>
+                <option value="41-45">41-45</option>
+                <option value="46-50">46-50</option>
+                <option value="51-55">51-55</option>
+                <option value="56-60">56-60</option>
+                <option value="60">60以上</option>
+            </select>
+            <select id="income" name="income">
+                <option value="">收入</option>
+                <option value="0-1000">0-1000元</option>
+                <option value="1000-2000">1000-2000元</option>
+                <option value="2000-3000">2000-3000元</option>
+                <option value="3000-4000">3000-4000元</option>
+                <option value="4000-5000">4000-5000元</option>
+                <option value="5000">5000元以上</option>
+            </select>
+            <select  id="job" name="work">
+                <option value="">职业</option>
+                <option value="医务人员">医务人员</option>
+                <option value="学生">学生</option>
+                <option value="教师">教师</option>
+                <option value="公司管理">公司管理</option>
+                <option value="商业服务">商业服务</option>
+                <option value="饮食服务">饮食服务</option>
+                <option value="保育保姆">保育保姆</option>
+                <option value="工人">工人</option>
+                <option value="牧民">牧民</option>
+                <option value="民工">民工</option>
+                <option value="干部">干部</option>
+                <option value="职员">职员</option>
+                <option value="其它">其它</option>
+            </select>
+        </form>
+        <img class="dati"  id="dati" src="images/question/mashangdati.png">
+    </div>
+    <!-- 信息收集页end -->
+    <!-- 问题单 -->
+    <div  class="hidden question-list" id="question-list">
+        <!-- 单个问题页 -->
+        <div class="question" id="question">
+            <div class="test" id="1" answer="D">
+                <p>1、《职业病防治法》中所称用人单位是指：</p>
+                <label><input type="radio" name="1" >A、企业、事业单位、政府机关</label></br>
+                <label><input type="radio" name="1" >B、企业、事业单位、政府机关</label></br>
+                <label><input type="radio" name="1" >C、企业、事业单位、政府机关</label></br>
+                <label><input type="radio" name="1" >D、企业、事业单位、政府机关</label></br>
+            </div>
+            <div class="hidden test" id="2" answer="D">
+                <p>2、《职业病防治法》中所称用人单位是指：</p>
+                <label><input type="radio" name="2" >A、企业、事业单位、政府机关</label></br>
+                <label><input type="radio" name="2" >B、企业、事业单位、政府机关</label></br>
+                <label><input type="radio" name="2" >C、企业、事业单位、政府机关</label></br>
+                <label><input type="radio" name="2" >D、企业、事业单位、政府机关</label></br>
+            </div>
+            <div  class="hidden test"  id="3" answer="D">
+                <p>3、《职业病防治法》中所称用人单位是指：</p>
+                <label><input type="radio" name="3" >A、企业、事业单位、政府机关</label></br>
+                <label><input type="radio" name="3" >B、企业、事业单位、政府机关</label></br>
+                <label><input type="radio" name="3" >C、企业、事业单位、政府机关</label></br>
+                <label><input type="radio" name="3" >D、企业、事业单位、政府机关</label></br>
+            </div>
+            <div class="hidden test"  id="4" answer="D">
+                <p>4、《职业病防治法》中所称用人单位是指：</p>
+                <label><input type="radio" name="4" >A、企业、事业单位、政府机关</label></br>
+                <label><input type="radio" name="4" >B、企业、事业单位、政府机关</label></br>
+                <label><input type="radio" name="4" >C、企业、事业单位、政府机关</label></br>
+                <label><input type="radio" name="4" >D、企业、事业单位、政府机关</label></br>
+            </div>
+        </div>
+        <!-- 上一个、下一个、提交 按钮 -->
+        <div id="btn">
+            <img class="hidden btn"  id="prev" src="images/question/prev.png">
+            <img class="btn-3"  id="next" src="images/question/next.png">
+            <img class="btn-3 hidden"  id="submit" src="images/question/submit.png">
+        </div>
+       <!-- 问题单end -->
+    </div>
+    <!-- 答题结果 -->
+    <div class="hidden rgba result" id="result" >
+        <!-- 遗憾页 -->
+        <div  class="hidden" id="error">
+            <img class="pity" src="images/question/hongbao-pity.png">
+            <div class="error-answer">
+                <h3 style="color: #ffa502;text-align: center;">答题已完成</h3>
+                答案如下：</br>
+                <p id="selectedAnswer"></p>
+                <p id="detailAnswer"></p>
+                <img class="btn-4" id="again" src="images/question/fighting.png">
+            </div>
+        </div>
+        <!-- 遗憾页结束 -->
+        <!-- 获得红包页 -->
+        <div class="hidden" id="correct">
+            <div class="open" id="congratulation">
+                <img class="width-100" src="images/question/hongbao-open.png" >
+                <div class="open-btn">
+                    <img class="width-100" id="zhongJiang"  src="images/question/open-btn.png">
+                </div>
+            </div>
+            <img  class="hidden chai"  id="chai" src="images/question/hongbaobtn.png">
+        </div>
+    </div>
+    <!-- 答题结果end -->
+</div>
+<script src="http://we.citygf.com/jkfs/addons/citygf_wenda/template/resource/js/jquery-1.7.1.js"></script>
+<script src="scripts/knowledge_race.js"></script>
+</body>
+</html>

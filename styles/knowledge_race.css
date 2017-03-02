@@ -1,0 +1,274 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#ed5f4f, #e7382f);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.background-image1{
+    background:url("../images/index/index-background.png") no-repeat center center;
+    background-size: cover;
+    min-height:640px;
+}
+
+.background-image2{
+    background:url("../images/index/degree.png") no-repeat top center;
+    background-size: cover;
+    min-height:640px;
+}
+
+.background-image3{
+    background:url("../images/question/information.jpg") no-repeat top center ;
+    background-size: cover;
+    min-height:640px;
+}
+
+.background-image4{
+    background:url("../images/question/hongbao.png") no-repeat top center;
+    background-size: cover;
+    padding:1%;
+    min-height:640px;
+}
+
+.background-rule{
+    background:url("../images/question/rule.png") no-repeat ;
+    background-size: contain;
+    padding:52px 33px 16px 36px;
+    width: 310px;
+    height: 300px;
+    display:block;
+    margin:0 auto;
+    font-family:Microsoft YaHei;
+    font-size: 18px;
+}
+
+.background-rank{
+    background:url("../images/question/rank.png") no-repeat ;
+    background-size: contain;
+    width: 290px;
+    height: 280px;
+    display:block;
+    margin:5% auto 0;
+    padding:56px 69px 49px 99px;
+    text-align: left;
+    min-height:276px;
+    font-family:Microsoft YaHei;
+    font-size: 18px;
+    line-height:34px;
+}
+
+.top{
+    width:86%;
+    padding: 7% 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-1{
+    width:100%;
+    padding-bottom:5%;
+}
+
+.btn-2{
+    width:100%;
+    padding-bottom:10%;
+}
+
+.btn-3{
+    width: 130px
+}
+
+.btn-4{
+    width: 55%;
+    margin: 10px auto 0;
+    display:block;
+}
+
+.hidden{
+    display:none;
+}
+
+.block{
+    display:block;
+    margin:0 auto;
+}
+
+.right{
+    float:right;
+}
+
+form input{
+    width:94%;
+    height:40px;
+    border-radius: 4px;
+    margin:5px;
+    padding:2px 0 2px 15px;
+}
+
+form select{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    background:url(../images/index/tra.png) no-repeat right center;
+    background-size:45px 100%;
+    background-color: #fff;
+    width:94%;
+    height:40px;
+    border-radius: 4px;
+    margin:5px;
+    padding:2px 0 2px 15px;
+}
+
+.rgba{
+    background:rgba(0,0,0,0.5);
+}
+
+.icon-2{
+    width:25% ;
+    margin-right: 5%;
+}
+
+.icon-1{
+    width:35% ;
+    margin-right: 5%;
+}
+
+#icon{
+    width:110%;
+}
+
+.index-center{
+    width:70%;
+    margin:0 auto;
+    padding-bottom: 43%;
+}
+
+.share{
+    width:100%;
+    min-height: 640px;
+}
+
+.contact{
+    width:100%;
+    min-height: 640px;
+}
+
+.width-100{
+    width:100%;
+    padding:0 0 15px;
+}
+
+.degree{
+    width:80%;
+    margin:0 auto;
+    padding: 52% 5% 0;
+}
+
+.information{
+    width:94%;
+    margin:0 auto;
+    padding:40% 0 50%;
+}
+
+.cut{
+    color: yellow;
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    margin:0 auto;
+    width: 265px;
+}
+
+.form-1{
+    width:300px;
+    padding-top:3%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.dati{
+    display: block;
+    margin: 5% auto 0;
+    width: 50%;
+}
+
+.question-list{
+    width:300px;
+    margin:0 auto;
+    padding:12% 0 70%;
+    height:690px;
+}
+
+.question{
+    background-color: #fcdad8;
+    margin: 40% auto 5%;
+    width: 290px;
+    color: #b05115;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height:30px;
+    font-family:Microsoft YaHei;
+    padding: 20px 10px;
+}
+
+.btn{
+    width: 130px;
+    float:left;
+}
+
+.result{
+    width: 100%;
+    position: absolute;
+    min-height: 690px;
+    top: 0;
+    left: 0;
+}
+
+.pity{
+    display: block;
+    left: 3%;
+    position: absolute;
+    top: 10%;
+    width: 94%;
+    z-index: 9999;
+}
+
+.error-answer{
+    background-color: #fff;
+    left: 11%;
+    margin: 0 auto;
+    position: absolute;
+    top: 25%;
+    width: 78%;
+    padding: 20% 10px 25px 10px;
+    border-radius: 4px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.open{
+    width:88%;
+    position: relative;
+    top:50px;
+    left:6%;
+}
+
+.open-btn{
+    display: block;
+    width: 60%;
+    position:absolute;
+    top: 80%;
+    left:21%;
+}
+
+.chai{
+    width: 58%;
+    position:absolute;
+    top: 80%;
+    left:21%
+}
